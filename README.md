@@ -1,5 +1,5 @@
 Tik-Tak-Toe
-Implementation of the game tic tak toe using HTML and Node JS. This is a client server architecture.
+Implementation of the game tic tak toe using HTML,Node JS and Java Script. This is a client server architecture.
 Abstract
 
 This is a real-time tic tac toe game, in which two players can play against each other over a network, and unlimited users can watch the game. The game consist of a server (node.js application) and client (javascript application)
