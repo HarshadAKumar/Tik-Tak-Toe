@@ -6,7 +6,7 @@ This is a real-time tic tac toe game, in which two players can play against each
 
 Technology
 
-The game is using long-polling connections for communication between the client and the server. Each received message by the server is broadcasted to all open connections. Websockets would be more reliable. Since an event can happen while some of the client are reconnecting, a message queue should be implemented, and clients should send the timestamp of the last message they received. This is not implemented in the current release.
+The game is using long-polling connections for communication between the client and the server. Each received message by the server is broadcasted to all open connections. Websockets would be more reliable. Since an event can happen while some of the client are reconnecting, a message queue should be implemented, and clients should send the timestamp of the last message they received.
 
 Server
 
